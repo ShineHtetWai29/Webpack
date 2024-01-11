@@ -2,9 +2,20 @@
 ------------------------ */
 @import 'normalize.css/normalize.css';
 
+@import 'layout/header';
+@import 'layout/wrap';
+@import 'layout/footer';
+@import 'layout/main';
+
+
 /* ==========================================================================
   Foundation
 ========================================================================== */
+@import 'foundation/reset';
+@import 'foundation/setting';
+@import 'foundation/font';
+@import 'foundation/init';
+
 
 /* ==========================================================================
   Foundation
@@ -13,10 +24,11 @@
 /* ==========================================================================
   Project
 ========================================================================== */
+@import 'object/project/mainvisual';
+@import 'object/project/title';
 
 /* ==========================================================================
   Component
 ========================================================================== */
-h1 {
-  color: #f00;
-}
+@import 'object/component/btn';
+@import 'object/component/card';
